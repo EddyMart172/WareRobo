@@ -16,11 +16,14 @@ class Robot:
         print("Add a new Robot to Warehouse")
 
 
-# Staring poin of application
+# Starting point of application
 # no guarantees -- I am not a programmer
 if __name__ == "__main__":
-    # Create an instance of Robot
-    # and call some methods
-
+    
+    pass
+# Create an instance of Robot
+    # and call some methods 
     myrobot = Robot(RoboID=101)
-    roboiD=(101)
+    RoboID=(101)
+
+from Sensor import Sensor

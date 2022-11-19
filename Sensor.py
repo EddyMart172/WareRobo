@@ -1,5 +1,7 @@
 """
-This is the Sensor master class
+This is the Sensor master class. 
+Sensors include Passive Infrared (PIR)
+Touch sensor and RFID
 """
 class Sensor:
     def __init__(self, Sensortype, SensorID) -> None:
@@ -9,4 +11,21 @@ class Sensor:
     print ("Add a type of sensor for our robot")
     print ("Add ID number for sensor")
 
+"""
+    Detect obstacles and/or determine location depending on type of sensor.
+"""
+def Detect():
+    print ("Detecting")
+
+"""
+Signal robot to stop
+
+"""
+def SignalStop() :
+    print ("Robot Stop signal issued")
+"""
+Signal robot to reverse
+"""
+def SignalReverse() :
+    print ("Robot Reverse signal issued")
 
