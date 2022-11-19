@@ -26,4 +26,5 @@ if __name__ == "__main__":
     myrobot = Robot(RoboID=101)
     RoboID=(101)
 
-from Sensor import Sensor
+from Motor import Motor
+from PIR import PIR

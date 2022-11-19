@@ -9,3 +9,6 @@ class PIR(Sensor):
     def __init__(self, Sensortype, SensorID) -> None:
         super().__init__(Sensortype, SensorID)
         print("Define PIR sensor")
+        Sensortype=PIR
+        SensorID='23'
+        
